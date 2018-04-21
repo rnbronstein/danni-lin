@@ -28,6 +28,7 @@ gem 'fae-rails'
 gem 'bootstrap-sass'
 gem 'paperclip'
 gem 'react-rails'
+gem 'webpacker', '~> 3.4'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
