@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'Gill Sans';
+	font-style: normal;
+	font-weight: 500;
+	src: url('<%= asset_path("fonts/font-gill-sans.woff") %>') format('woff');
+}
+
+p {
+	color: $primary-text;
+	font-family: 'Gill Sans';
+}
+
+a {
+	color: $primary-text;
+	font-family: 'Gill Sans';
+	&:hover {
+		color: $accent-text;
+	}
+}
