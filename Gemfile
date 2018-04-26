@@ -22,13 +22,18 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 
-# extra additions
+# My libraries
 gem 'fae-rails'
 gem 'devise', '4.4'
-gem 'paperclip'
+gem 'paperclip', '~> 5.2.0'
 gem 'react-rails'
 gem 'webpacker', '~> 3.4'
 gem 'bootstrap', '~> 4.1.0'
+
+# Specify versions for dependencies with security vulnerabilities
+gem 'nokogiri', '~> 1.8.2'
+gem 'loofah', '~> 2.2.1'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
